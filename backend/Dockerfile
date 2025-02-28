@@ -1,5 +1,5 @@
 FROM node:20
-USER  expense
+# USER  expense
 WORKDIR /opt/backend
 COPY package.json /opt/backend
 COPY *.js  /opt/backend
